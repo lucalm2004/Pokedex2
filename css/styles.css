@@ -1,0 +1,173 @@
+/* Index */
+
+.index {
+    background-image: url("../img/region\ de\ kanto.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.index a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Los elementos a que se encuentran dentro de un elemento con clase index */
+
+.index h1 {
+    text-align: center;
+}
+
+.index span {
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.index img {
+    width: 25%;
+}
+
+
+/* Blastoise */
+
+.blastoise {
+    background-color: rgb(0, 60, 255);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.blastoise a {
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.blastoise .borde {
+    text-align: center;
+}
+
+.blastoise img {
+    width: 30%;
+    height: 30%;
+}
+
+.blastoise span {
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* Charizard */
+
+.charizard {
+    background-color: rgb(178, 128, 34);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.charizard a {
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.charizard .borde {
+    text-align: center;
+}
+
+.charizard img {
+    width: 30%;
+    height: 30%;
+}
+
+.charizard span {
+    background-color: red;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* Ivyasaur */
+
+.ivyasur {
+    background-color: rgb(158, 255, 47);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.ivyasur a {
+    background-color: green;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.borde {
+    text-align: center;
+}
+
+.ivyasur img {
+    width: 30%;
+    height: 30%;
+}
+
+.ivyasur span {
+    background-color: green;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* Squirtle */
+
+.squirtle {
+    background-color: rgb(0, 60, 255);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.squirtle a {
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.borde {
+    text-align: center;
+}
+
+.squirtle img {
+    width: 30%;
+    height: 30%;
+}
+
+.squirtle span {
+    background-color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+
+/* Media query para el diseño responsive*/
+
+@media only screen and (max-width: 700px) {
+    .index img,
+    .blastoise img,
+    .charizard img,
+    .ivyasur img,
+    .squirtle img {
+        width: 100%;
+    }
+}
